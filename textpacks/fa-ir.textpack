@@ -61,12 +61,12 @@ you_have_been_registered => شما به عنوان مشارکت‌کننده د�
 advanced_options => تنظیمات پیشرفته
 article_day => روز
 article_expires_before_postdate => خطا: نوشته <strong>پیش از</strong> تاریخ ارسال منقضی می‌شود.
-article_exp_day =>
-article_exp_hour =>
-article_exp_minute =>
-article_exp_month =>
-article_exp_second =>
-article_exp_year =>
+article_exp_day => روز
+article_exp_hour => ساعت
+article_exp_minute => دقیقه
+article_exp_month => ماه
+article_exp_second => ثانیه
+article_exp_year => سال
 article_hour => ساعت
 article_image => تصویر نوشته
 article_markup => در کد نوشته
@@ -93,7 +93,7 @@ pending => منتظر برای ارسال
 reset_time => تغییر زمان به حال
 set_to_now => زمان و تاریخ رو به اکنون تغییر بده
 sort_display => مرتب‌سازی و نمایش
-textfilter_help =>
+textfilter_help => راهنمای شکل بندی متن
 timestamp => الگوی زمان و تاریخ
 url_title => عنوان مختص نشانی نوشته
 url_title_is_blank => فیلد عنوان مختص نشانی خالی گذاشته شد.
@@ -103,7 +103,7 @@ view_html_short => HTML
 view_preview => پیش‌نمایش نوشته
 view_preview_short =>
 view_text => ویرایش محتوای نوشته
-view_text_short =>
+view_text_short => متن
 write => نوشتن
 #@category
 article_categories_deleted => این رده‌نوشته‌ها پاک شدند : <strong>{list}</strong>.
@@ -115,10 +115,10 @@ article_category_name => نام رده نوشته
 article_category_title => عنوان رده نوشته
 article_category_updated => رده‌نوشته <strong>{name}</strong> بهنگام شد.
 article_head => رده‌های مربوط به نوشته‌ها
-categories_set_parent =>
+categories_set_parent => {list} اختصاص یافته است به {type} دسته مادر {parent}
 category_not_found => رده یافت نشد
 category_save_failed => رده به دلیل بروز خطا ذخیره نشد. لطفا دوباره تلاش کنید.
-create_new_category =>
+create_new_category => ایجاد دسته جدید
 edit_category => ویرایش رده
 file_categories_deleted => این رده‌فایل‌ها پاک شدند : <strong>{list}</strong>
 file_category_already_exists => رده‌فایل <strong>{name}</strong> از پیش موجود است.
@@ -168,7 +168,7 @@ changecomments => تغییر نظرات
 changeparent => تغییر والد
 changesection => تغییر بخش
 changestatus => تغییر وضعیت
-close =>
+close => بستن
 comment => نظر
 comments_expired => امکان نظردهی برای این نوشته وجود ندارد.
 confirm_delete_popup => پاک شود؟
@@ -181,7 +181,7 @@ descending => نزولی
 description => توضیحات
 detail_toggle => نمایش جزئیات
 draft => پیش‌نویس
-duplicate =>
+duplicate => ایجاد مشابه
 excerpt => منتخب
 expired => منقضی شده
 external_links => لینک‌های خارجی
@@ -190,7 +190,7 @@ form_not_specified => فرمی مشخص نشده است.
 form_submission_error => متاسفانه ارسال فرم امکان‌پذیر نیست. لطفا دوباره تلاش کنید.
 gd_unavailable => دسترس ناپذیر
 general_error => خطای عمومی
-get_off_my_lawn =>
+get_off_my_lawn => متأسفم! من ترسیدم و نمی تونمانجامش بدم.<code>{event}</code> <code>{step}</code> یک عملیات غیرایمن است.
 greeting => عزیز
 hidden => مخفی
 image_category => رده
